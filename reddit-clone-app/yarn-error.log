@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\MIN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Users\MIN\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\MIN\AppData\Local\Programs\Python\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\HashiCorp\Vagrant\bin;C:\Users\MIN\zip-3.0-bin\bin;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\ProgramData\chocolatey\bin;C:\Program Files\Memurai\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\MIN\AppData\Local\Programs\Python\Python39\;C:\Program Files\rubygems-3.3.15\rubygems-3.3.15\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby31-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MIN\AppData\Local\Microsoft\WindowsApps;C:\Users\MIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Bandizip\;C:\Users\MIN\anaconda3\Library\bin;C:\Users\MIN\anaconda3\Scripts;C:\Users\MIN\anaconda3\condabin;C:\Users\MIN\AppData\Local\GitHubDesktop\bin;C:\Users\MIN\multi_work\socat;C:\Program Files\nodejs;C:\Program Files\MariaDB 10.5\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin;;C:\Users\MIN\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\MIN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at Interface._ttyWrite (node:readline:1085:16)
+      at ReadStream.onkeypress (node:readline:291:10)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,5 @@
+./reddit-clone-app/server/.env
+./reddit-clone-app/server/package.json
+./reddit-clone-app/server/tsconfig.json
+./reddit-clone-app/server/data-source.ts
+
