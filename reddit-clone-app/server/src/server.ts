@@ -13,6 +13,7 @@ app.get("/", (_, res) => res.send("running"));// / 경로로 오면 running이�
 let port = 4000;
 app.listen(port, async () => {
     console.log(`server running at http://localhost:${port}`);
+    
     AppDataSource.initialize().then(    () => {
         console.log("database initialized")
     }).catch(error => console.log(error))
